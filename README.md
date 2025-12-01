@@ -1,4 +1,4 @@
-# PythonPackagingTool
+# PyPackagingTool
 
 ## English Version
 
