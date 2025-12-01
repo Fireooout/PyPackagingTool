@@ -16,7 +16,7 @@ IS_FROZEN = getattr(sys, 'frozen', False)
 class PackApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Python打包工具 v3.0")
+        self.root.title("PyPackagingTool_v3.0")
         self.root.geometry("950x750")
         
         # === GUI 美化 ===
@@ -489,3 +489,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = PackApp(root)
     root.mainloop()
+
